@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colegiados</title>
+
+</head>
+
+<body >
+    
+    <table width="100%" align="center">
+        
+        <tr>
+            <td height="15">Manutenção do Órgão Colegiado
+            </td>
+        <tr>
+    </table> <br>
+    <table width="80%" height="36" border="1" align="center" id="tabela">
+        <tr>
+            <td > Unidade</td>
+            <td > FACULDADE DE ENGENHARIA DE ILHA SOLTEIRA</td>
+        </tr>
+        <tr>
+            <td > Tipo Colegiado</td>
+            <td > CONGREGAÇÃO</td>
+        </tr>
+    </table> <br>
+    <form name="formulario"> <input type="hidden" name="cod" />
+        <table width="100%" height="46" border="1" align="center" id="tabela">
+            <tr>
+                <td height="30">Órgão Colegiado </td>
+            </tr>
+            <tr>
+                <td>
+                    <P> <br>
+                    <table width="100%" border=0>
+                        <tr>
+                            <td width="20%" ><b>Nome</b></td>
+                            <td colspan=3><input type="text" name="nome"
+                                    value="CONGREGAÇÃO DA FACULDADE DE ILHA SOLTEIRA" size="56" maxlength="56"/></td>
+                        </tr>
+                        <tr>
+                            <td ><b>Sigla</b></td>
+                            <td width="50%"><input type="text" name="sigla" value="CFIS" size="7" maxlength="7" /></td>
+                            <td ><b>Status</b></td>
+                            <td><select name="status" size="1" >
+                                    <option value="A" selected>ATIVADO</option>
+                                    <option value="A">ATIVADO</option>
+                                    <option value="D">DESATIVADO</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td ><b> Data Ativação</b></td>
+                            <td><input type="text" name="dt_ativo" value="15/10/2000" size="7" maxlength="7" /></td>
+                            <td> <b> Data Desativação </b></td>
+                            <td><input type="text" name="dt_desativo" value="" size="7" maxlength="7" /></td>
+                        </tr>
+                        <tr>
+                            <td> <b> Órgão de Origem </b> </td>
+                            <td colspan=3><input type="text" name="origem" value="" size="68" />
+                                <input name="button" type="button" value="Buscar" /> </td>
+                        </tr>
+                        <tr>
+                            <td ><b>Órgão Superior</b></td>
+                            <td colspan=3><input type="text" name="superior" value="" size="22"  />
+                                <input name="button" type="button"  value="Buscar" /> </td>
+                        </tr>
+                        <tr>
+                            <td><b>Documentação</b></td>
+                            <td colspan=3><textarea name="documentacao" cols="40" rows="4"> Órgão criado com o objetivo de aprovar normas da unidade.</textarea>
+                            </td>
+                        </tr>
+                    </table>
+                    <div align="center">
+                        <table width="500">
+                            <tr>
+                                <td width="245">
+                                    
+                                    <input name="button" type="button" 
+                                        value="Salvar" /> </td>
+                                <td width="203">
+                                    
+                                    <input name="button" type="button" 
+                                        value="Excluir" /> </td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <h1>Formulário</h1>
+        <p>Dados pessoais</p>
+        <label for="nome"> Nome:</label>
+        <input type="text" name="nome" id="nome"> <br> <br>
+        <label for="endereco">Endereço :</label>
+        <input type="text" name="endereco" id="endereco"> <br> <br>
+        <label for="cidade">Cidade:</label>
+        <input type="text" name="cidade" id="cidade"> <br> <br>
+        <select name="estado" id="estado">
+            <option value="sp">São paulo</option>
+            <option value="rj"> Rio de Janeiro</option>
+            <option value="pe">Pernambuco</option>
+            <option value="ba">Bahia</option>
+            <option value="ma">Manaus</option>
+            <option value="ac">Acre</option>
+        </select>
+        <br>
+        <br>
+        <p>Dados profissionais</p>
+        <label for="cargo"> Natureza do Cargo </label> <br>
+        <input type="radio" id="gerencia" name="cargo" value="gerencia">
+        <label for="gerencia">Gerência</label>
+        <input type="radio" id="financeiro" name="cargo" value="financeiro">
+        <label for="financeiro"> Financeiro</label>
+        <input type="radio" id="recepcao" name="cargo" value="recepcao">
+        <label for="recepcao">Recepção</label>
+        <input type="radio" id="adm" name="cargo" value="adm">
+        <label for="adm"> Administrativo</label>
+        <input type="radio" id="juri" name="cargo" value="juri">
+        <label for="juri">Jurídico</label>
+        <br>
+        <br>
+        <label for="interesse"> Área de interesse </label> <br>
+        <input type="checkbox" id="comp" name="interesse" value="comp">
+        <label for="comp">Computação</label>
+        <input type="checkbox" id="bio" name="intereses" value="bio">
+        <label for="bio"> Biologia </label>
+        <input type="checkbox" id="ambi" name="interesse" value="ambi">
+        <label for="ambi">Meio Ambiente</label>
+        <input type="checkbox" id="eng" name="interesse" value="eng">
+        <label for="eng">Engenharia </label>
+        <input type="checkbox" id="hist" name="interesse" value="hist">
+        <label for="hist"> Historia</label>
+        <br>
+        <br>
+        <label for="curri">Mini-curriculo</label>
+        <textarea name="curri" id="curri" cols="50" rows="5"></textarea>
+        <br>
+        <br>
+        <button> Enviar</button>
+        <button>Limpar</button>
+    </form>
+
+</body>
+
+</html>
